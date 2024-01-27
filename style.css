@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.head{
+    display: flex;
+    justify-content: center ;
+    background-color: cadetblue;
+    color: #fff;
+    
+}
+.ProFromJs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: calc((100% - 20px) / 5);
+    background-color: aliceblue;
+    padding: 10px;
+}
+img {
+    width: 100%;
+}
+
+.proinfo {
+    display: flex;
+    justify-content: space-around;
+}
